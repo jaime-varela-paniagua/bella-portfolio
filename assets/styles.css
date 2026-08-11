@@ -327,14 +327,10 @@ button.row {
    Info
    ============================================================ */
 .bio {
-  max-width: 46ch;
-  margin: 0 0 1.5rem;
+  width: 100%;
+  margin: 0;
   color: var(--ink-80);
 }
-
-.contact { list-style: none; margin: 0; padding: 0; }
-.contact li { padding: 0.5rem 0; border-bottom: 1px solid var(--rule); }
-.contact li:first-child { border-top: 1px solid var(--rule); }
 
 /* ============================================================
    Colophon
