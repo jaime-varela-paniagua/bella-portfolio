@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+
+# Reference material — the original Cargo export, not part of the site
+sample/
+
+# Unused source thumbnails (4.5 MB PNGs); the site uses the optimized *.jpg
+thumbnails/*_thumbnail.png
+
+# Stray empty file
+readme.txt
