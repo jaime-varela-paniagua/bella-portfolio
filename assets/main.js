@@ -33,9 +33,10 @@ function openItem(li) {
   const inner = li.querySelector(".embed-inner");
   if (!inner.querySelector("iframe")) {
     const id = li.dataset.vimeo;
+    const hash = li.dataset.hash ? `&h=${li.dataset.hash}` : "";
     const title = li.querySelector(".t").textContent.trim();
     inner.innerHTML =
-      `<div class="embed-frame"><iframe src="https://player.vimeo.com/video/${id}?autoplay=1&byline=0&title=0&portrait=0" ` +
+      `<div class="embed-frame"><iframe src="https://player.vimeo.com/video/${id}?autoplay=1&byline=0&title=0&portrait=0${hash}" ` +
       `allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="${title}"></iframe></div>`;
   }
 }
