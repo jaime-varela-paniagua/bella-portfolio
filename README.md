@@ -8,19 +8,14 @@ No build step, no dependencies — plain HTML/CSS/JS, hostable on GitHub Pages.
 ```
 index.html          # the page
 assets/styles.css    # all styling
-assets/main.js       # footer year + click-to-load Vimeo reels
+assets/main.js       # footer year + Vimeo embeds (open by default, thumbnail only)
 .nojekyll            # tell GitHub Pages to serve files as-is
 CNAME                # (add this once the custom domain is bought)
 ```
 
 ## Content
 
-Reels are Vimeo embeds, loaded on click for speed:
-
-| Reel                     | Vimeo ID     |
-| ------------------------ | ------------ |
-| Fiction                  | 1197453195   |
-| Adverts & Music Videos   | 1197453194   |
+Videos are Vimeo embeds, shown open (thumbnail, no autoplay) in the work index.
 
 Work index and contact details live directly in `index.html` — edit that file
 to add/reorder projects.
